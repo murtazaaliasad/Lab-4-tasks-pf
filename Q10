@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int password;
+    int correctPassword = 1234;
+
+    printf("Enter password: ");
+    scanf("%d", &password);
+
+    if (password == correctPassword) {
+        printf("Access Granted");
+    } else {
+        printf("Access Denied");
+    }
+
+    return 0;
+}
